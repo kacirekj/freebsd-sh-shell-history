@@ -33,7 +33,7 @@ do_backup_sh_history_file() {
 trap do_backup_sh_history_file EXIT HUP TERM
 ```
 
-Done. Each time you exits the shell properly, it will backup your history. However it doesn't prohibit commands lost on violent exit (like reboot).
+Done. Each time you exit the shell properly, it will backup your history. However, it doesn't prohibit commands lost due to violent exit (like reboot, or ssh connection lost).
 
 ## Limitations
 
