@@ -34,3 +34,9 @@ trap do_backup_sh_history_file EXIT HUP TERM
 ```
 
 Done. Each time you exits the shell properly, it will backup your history. However it doesn't prohibit commands lost on violent exit (like reboot).
+
+## Limitations
+
+- To keep script simple, it is not possible to avoid removing duplicities. The feature of removing duplicities is the byproduct of the script simplicity. Anyway, it is worthless to have duplicities in the sh history.
+- Violent terminal exits will prohibit script to execute
+- Currently not possible to modify history by hand, it will get overwrite
