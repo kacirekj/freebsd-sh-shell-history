@@ -1,6 +1,6 @@
 # FreeBSD sh history backup script
 
-This simple script merges your `sh` history into a global history file and then merges it back into your regular `sh` history file.
+This simple script merges your `sh` history into a global history file and then copies it back into your regular `sh` history file.
 
 ## Overview
 
