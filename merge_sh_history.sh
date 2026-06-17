@@ -56,7 +56,6 @@ tail -r "${GLOBAL_SH_HISTORY_RESULT_REVERTED_TMP}" > "${GLOBAL_SH_HISTORY}"
 
 vis "${GLOBAL_SH_HISTORY}" > "${LOCAL_SH_HISTORY}"
 chmod 755 "${GLOBAL_SH_HISTORY}"
-chown mybsd:mybsd "${GLOBAL_SH_HISTORY}"
 
 
 # Cleanup
