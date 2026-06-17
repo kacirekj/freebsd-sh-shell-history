@@ -4,6 +4,8 @@ This simple script backs up your `sh` history into a global history file and the
 
 ## Overview
 
+NOTE: The script can be discussed in this topic https://forums.freebsd.org/threads/fix-for-the-problem-with-history-in-sh-shell.103002/
+
 On FreeBSD ~14.0+, the default `sh` shell can store command history. However, it has some quirks that may cause history entries to be lost.
 
 If you rely on shell history a lot, this script may help you manage that problem.
